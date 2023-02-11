@@ -1,0 +1,106 @@
+#nav {
+    margin: 0.97%;
+}
+
+#nav li {
+    margin: auto;
+    display: inline-block;
+}
+
+.over li {
+    width: 20%;
+}
+
+.add li {
+    width: 19%;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: #101010;
+}
+
+#nav li a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background: url("background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: arial;
+    background-color: #e0e0e0;
+    font-size: 14px;
+    color: #404040;
+    padding: 20px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 80px;
+    margin: 0.5% auto;
+    font-size: 14px;
+    background-color: #c6c5c5;
+    border: 6px solid #000000;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #404040;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#container {
+    text-align: left;
+    vertical-align: middle;
+    margin: 0px auto;
+    padding: 10px;
+    width: 70%;
+    background-color: #ffffff;
+    border: 12px solid #000000;
+    border-radius: 10px;
+}
+
+table.books,
+table.authors,
+table.publhouses {
+    width: 100%;
+    border-spacing: 2px;
+    table-layout: autho;
+}
+
+.books tr:nth-child(2n),
+.authors tr:nth-child(2n),
+.publhouses tr:nth-child(2n) {
+    background-color: #f0f0f0
+}
+
+td,
+th {
+    padding: 3px;
+}
+
+.button_add {
+    align-items: center;
+    border-radius: 4px;
+    border-width: 0;
+    background-color: #c6c5c5;
+    cursor: pointer;
+    height: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#book_title {
+    width: 300%;
+}

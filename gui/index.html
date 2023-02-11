@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>Books</title>
+    <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="application.js"></script>
+</head>
+
+<body onload="Books()">
+    <div id="menu">
+        <div id="nav" class="over">
+            <li align="center"><b><a href="javascript:Books()">Books Overview</a></b></li>
+            <li align="center"><b><a href="javascript:Authors()">Authors Overview</a></b></li>
+            <li align="center"><b><a href="javascript:PublHouses()">Publishing Houses Overview</a></b></li>
+        </div>
+        <div id="nav" class="add">
+            <li align="center"><b><a href="javascript:addBook()">Add new Book</a></b></li>
+            <li align="center"><b><a href="javascript:addAuthor()">Add new Author</a></b></li>
+            <li align="center"><b><a href="javascript:addGenre()">Add new Genre</a></b></li>
+            <li align="center"><b><a href="javascript:addPublHouse()">Add new Publishing House</a></b></li>
+        </div>
+    </div>
+    <div id="container"></div>
+</body>
